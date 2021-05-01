@@ -1,0 +1,5 @@
+---
+canvas: "https://i.imgur.com/JJwQ9E8.jpg"
+order: 1
+---
+{"type": "Annotation", "body": [{"type": "TextualBody", "value": "birth", "purpose": "tagging", "creator": {"id": "hopperrr", "name": "hopperrr"}, "created": "2021-05-01T17:03:10.143Z", "modified": "2021-05-01T17:03:19.668Z"}, {"type": "TextualBody", "value": "Test of annotation", "purpose": "commenting", "creator": {"id": "hopperrr", "name": "hopperrr"}, "created": "2021-05-01T17:03:24.392Z", "modified": "2021-05-01T17:03:33.647Z"}], "target": {"selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:506.5791931152344,2062.4560546875,2927.9571838378906,2389.14599609375"}, "source": "https://i.imgur.com/JJwQ9E8.jpg"}, "@context": "http://www.w3.org/ns/anno.jsonld", "id": "{{site.url}}{{site.baseurl}}/annotations/8a62b8b7-c411-477e-9ccc-9a09256f50c9.json"}
