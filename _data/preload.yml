@@ -4,8 +4,8 @@ images:
   thumbnail: https://iiif-antenati.cultura.gov.it/iiif/2/5va8OGO/full/120,/0/default.jpg
   title: Archivio di Stato di Avellino > Stato civile italiano > Lioni > 1900
   url: https://gist.githubusercontent.com/hopperrr/bc31090b95eb59457c5ff11f3b92f3b2/raw/3659fd786420e719d824300ceba7a41c42c52447/manifest.json
-manifests: []
 settings:
   tempuser: notenabled
   viewer: default
   widgets: comment-with-purpose, tag, geotagging
+version: '2.0'
