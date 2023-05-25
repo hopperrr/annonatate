@@ -1,0 +1,31 @@
+---
+canvas: "https://iiif-antenati.cultura.gov.it/iiif/2/wQG4xz8/info.json"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Filomena Perna",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-05-25T21:15:23.024Z",
+            "modified": "2023-05-25T21:15:27.080Z"
+        }
+    ],
+    "target": {
+        "source": "https://iiif-antenati.cultura.gov.it/iiif/2/wQG4xz8/info.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2749.74658203125,2245.6708984375,842.228271484375,191.22265625"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "2f0bd66b-e93d-44b3-b0df-af5a3f5db0e2.json",
+    "motivation": "commenting"
+}
