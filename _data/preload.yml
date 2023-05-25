@@ -1,13 +1,11 @@
-manifests:
-  - https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/fullBayeux/manifest.json
-  - https://d.lib.ncsu.edu/collections/catalog/mc00084-001-te0159-000-001_0001/manifest.json
-  - https://d.lib.ncsu.edu/collections/catalog/mc00336-1911Bldg-May2017/manifest.json
-  - https://d.lib.ncsu.edu/collections/catalog/mc00240-001-ff0093-001-001_0010/manifest.json
-  - https://d.lib.ncsu.edu/collections/catalog/0002386/manifest.json
-  - https://d.lib.ncsu.edu/collections/catalog/nubian-message-2002-04-18/manifest.json
-  - https://d.lib.ncsu.edu/collections/catalog/segIns_004/manifest
-  - https://damsssl.llgc.org.uk/iiif/2.0/4665992/manifest.json
-  - https://purl.stanford.edu/wh234bz9013/iiif/manifest
 images:
-  - https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Landscape_with_Rainbow_SAAM-1983.95.160_1.tiff/lossy-page1-6819px-Landscape_with_Rainbow_SAAM-1983.95.160_1.tiff.jpg
-  - https://upload.wikimedia.org/wikipedia/commons/7/7e/PowersBibleQuilt_1886.jpg
+- added: '2023-05-25 21:11:50.635660'
+  iiif: true
+  thumbnail: https://iiif-antenati.cultura.gov.it/iiif/2/5va8OGO/full/120,/0/default.jpg
+  title: Archivio di Stato di Avellino > Stato civile italiano > Lioni > 1900
+  url: https://gist.githubusercontent.com/hopperrr/bc31090b95eb59457c5ff11f3b92f3b2/raw/3659fd786420e719d824300ceba7a41c42c52447/manifest.json
+manifests: []
+settings:
+  tempuser: notenabled
+  viewer: default
+  widgets: comment-with-purpose, tag, geotagging
