@@ -1,5 +1,0 @@
----
-canvas: "https://i.imgur.com/zsEuf0C.jpg"
-order: 1
----
-{"type": "Annotation", "body": [{"type": "TextualBody", "value": "cfErnesto", "purpose": "tagging", "creator": {"id": "hopperrr", "name": "hopperrr"}, "created": "2021-05-02T03:15:42.588Z", "modified": "2021-05-02T03:15:46.248Z"}, {"type": "TextualBody", "value": "clSantoro", "purpose": "tagging", "creator": {"id": "hopperrr", "name": "hopperrr"}, "created": "2021-05-02T03:15:47.936Z", "modified": "2021-05-02T03:15:51.928Z"}], "target": {"selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:2190.474853515625,1105.1365966796875,1067.850830078125,98.0679931640625"}, "source": "https://i.imgur.com/zsEuf0C.jpg"}, "@context": "http://www.w3.org/ns/anno.jsonld", "id": "{{site.url}}{{site.baseurl}}/annotations/575f9623-d015-49b9-941d-fe2696e3b3c7.json"}
