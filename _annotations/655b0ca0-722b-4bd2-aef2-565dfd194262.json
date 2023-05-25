@@ -1,0 +1,31 @@
+---
+canvas: "https://iiif-antenati.cultura.gov.it/iiif/2/5BWgQbE/info.json"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Giovanni Stabile",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-05-25T21:14:14.637Z",
+            "modified": "2023-05-25T21:14:20.558Z"
+        }
+    ],
+    "target": {
+        "source": "https://iiif-antenati.cultura.gov.it/iiif/2/5BWgQbE/info.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2371.77392578125,4311.1318359375,575.844970703125,111.13037109375"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "655b0ca0-722b-4bd2-aef2-565dfd194262.json",
+    "motivation": "commenting"
+}
