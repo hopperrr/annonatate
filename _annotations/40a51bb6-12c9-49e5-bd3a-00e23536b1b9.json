@@ -1,0 +1,41 @@
+---
+canvas: "https://iiif-antenati.cultura.gov.it/iiif/2/5GZXDOQ/info.json"
+order: 6
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Anna Maria Cavallo, 29",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-05-26T16:14:08.346Z",
+            "modified": "2023-05-26T16:14:17.324Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "mother",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-05-26T16:14:27.443Z"
+        }
+    ],
+    "target": {
+        "source": "https://iiif-antenati.cultura.gov.it/iiif/2/5GZXDOQ/info.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1222.227783203125,565.1176147460938,276.8809814453125,50.8057861328125"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "40a51bb6-12c9-49e5-bd3a-00e23536b1b9.json",
+    "motivation": "commenting"
+}
