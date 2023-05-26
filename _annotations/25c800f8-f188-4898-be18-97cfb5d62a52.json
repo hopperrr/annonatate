@@ -1,0 +1,41 @@
+---
+canvas: "https://iiif-antenati.cultura.gov.it/iiif/2/5GZXDOQ/info.json"
+order: 4
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Maria Gorlano",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-05-26T16:11:30.769Z",
+            "modified": "2023-05-26T16:11:33.615Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "child",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-05-26T16:11:37.015Z"
+        }
+    ],
+    "target": {
+        "source": "https://iiif-antenati.cultura.gov.it/iiif/2/5GZXDOQ/info.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1776.556884765625,601.4793090820312,282.9580078125,52.52337646484375"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "25c800f8-f188-4898-be18-97cfb5d62a52.json",
+    "motivation": "commenting"
+}
