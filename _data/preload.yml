@@ -1,4 +1,9 @@
 images:
+- added: '2023-05-26 16:01:16.195343'
+  iiif: true
+  thumbnail: https://iiif-antenati.cultura.gov.it/iiif/2/0J8l2Jz/full/120,/0/default.jpg
+  title: Archivio di Stato di Avellino > Stato civile italiano > Lioni > 1902
+  url: https://gist.githubusercontent.com/hopperrr/5cb711b61d5bb5719639b16a2ca3c638/raw/7e7b82eaac37d1a5c949f3bc6dd056ee27ac20c3/gistfile1.txt
 - added: '2023-05-26 15:57:33.357211'
   iiif: true
   thumbnail: https://iiif-antenati.cultura.gov.it/iiif/2/wlkyObM/full/120,/0/default.jpg
