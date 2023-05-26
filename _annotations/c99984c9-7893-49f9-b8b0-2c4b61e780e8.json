@@ -1,0 +1,61 @@
+---
+canvas: "https://iiif-antenati.cultura.gov.it/iiif/2/5BWgQbE/info.json"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Anna Maria Lemmo",
+            "purpose": "supplementing",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-05-26T01:50:44.927Z",
+            "modified": "2023-05-26T01:51:07.658Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "birth",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-05-26T01:51:19.096Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "child",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-05-26T01:51:28.840Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "female",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-05-26T01:51:33.366Z"
+        }
+    ],
+    "target": {
+        "source": "https://iiif-antenati.cultura.gov.it/iiif/2/5BWgQbE/info.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=767.60693359375,581.032470703125,3154.774169921875,2837.55419921875"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "c99984c9-7893-49f9-b8b0-2c4b61e780e8.json",
+    "motivation": "commenting"
+}
