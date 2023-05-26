@@ -1,0 +1,42 @@
+---
+canvas: "https://iiif-antenati.cultura.gov.it/iiif/2/5BWgQbE/info.json"
+order: 5
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Michela Cuosto",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-05-26T01:55:46.598Z",
+            "modified": "2023-05-26T01:55:53.007Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "mother",
+            "purpose": "tagging",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-05-26T01:55:59.880Z",
+            "modified": "2023-05-26T01:56:00.977Z"
+        }
+    ],
+    "target": {
+        "source": "https://iiif-antenati.cultura.gov.it/iiif/2/5BWgQbE/info.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2936.925537109375,1403.9288330078125,647.6767578125,125.9693603515625"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "313378e7-f1ee-48b7-963c-684b330fc70a.json",
+    "motivation": "commenting"
+}
