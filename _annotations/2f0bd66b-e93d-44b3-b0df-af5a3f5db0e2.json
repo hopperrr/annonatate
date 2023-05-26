@@ -3,29 +3,39 @@ canvas: "https://iiif-antenati.cultura.gov.it/iiif/2/wQG4xz8/info.json"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Filomena Perna",
-            "purpose": "commenting",
+            "created": "2023-05-25T21:15:23.024Z",
             "creator": {
                 "id": "hopperrr",
                 "name": "Christopher Soriano"
             },
-            "created": "2023-05-25T21:15:23.024Z",
-            "modified": "2023-05-25T21:15:27.080Z"
+            "modified": "2023-05-25T21:15:27.080Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Filomena Perna"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "female",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-05-26T18:18:50.022Z"
         }
     ],
-    "target": {
-        "source": "https://iiif-antenati.cultura.gov.it/iiif/2/wQG4xz8/info.json",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2749.74658203125,2245.6708984375,842.228271484375,191.22265625"
-        }
-    },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
     "id": "2f0bd66b-e93d-44b3-b0df-af5a3f5db0e2.json",
-    "motivation": "commenting"
+    "motivation": "commenting",
+    "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2749.74658203125,2245.6708984375,842.228271484375,191.22265625"
+        },
+        "source": "https://iiif-antenati.cultura.gov.it/iiif/2/wQG4xz8/info.json"
+    },
+    "type": "Annotation"
 }
