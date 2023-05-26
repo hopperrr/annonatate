@@ -1,0 +1,61 @@
+---
+canvas: "https://iiif-antenati.cultura.gov.it/iiif/2/wQG4xz8/info.json"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Rocco Perna",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-05-26T18:15:41.307Z",
+            "modified": "2023-05-26T18:15:44.640Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "possidente",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-05-26T18:16:25.011Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "48",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-05-26T18:16:33.131Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "father",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-05-26T18:16:42.810Z"
+        }
+    ],
+    "target": {
+        "source": "https://iiif-antenati.cultura.gov.it/iiif/2/wQG4xz8/info.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=772.6168212890625,2566.00634765625,849.5040283203125,182.53857421875"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "34f90136-52c5-4cdb-be72-5ed56106d00d.json",
+    "motivation": "commenting"
+}
