@@ -1,0 +1,51 @@
+---
+canvas: "https://iiif-antenati.cultura.gov.it/iiif/2/5GZXDOQ/info.json"
+order: 5
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Alessandro Gorlano, 33",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-05-26T16:12:19.254Z",
+            "modified": "2023-05-26T16:12:31.527Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "father",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-05-26T16:12:37.770Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "bracchiale",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-05-26T16:12:50.337Z"
+        }
+    ],
+    "target": {
+        "source": "https://iiif-antenati.cultura.gov.it/iiif/2/5GZXDOQ/info.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1184.8092041015625,385.4879150390625,589.2435302734375,79.52053833007812"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "996aa697-d2c3-45b4-905b-8bf127af6508.json",
+    "motivation": "commenting"
+}
