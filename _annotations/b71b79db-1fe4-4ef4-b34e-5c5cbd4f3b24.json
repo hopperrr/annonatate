@@ -1,0 +1,51 @@
+---
+canvas: "https://iiif-antenati.cultura.gov.it/iiif/2/5BWgQbE/info.json"
+order: 4
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Rocco Lemmo",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-05-26T01:54:30.325Z",
+            "modified": "2023-05-26T01:54:33.725Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "father",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-05-26T01:55:01.182Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "contadino",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-05-26T01:55:06.172Z"
+        }
+    ],
+    "target": {
+        "source": "https://iiif-antenati.cultura.gov.it/iiif/2/5BWgQbE/info.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1968.332763671875,1143.059326171875,741.5869140625,133.1063232421875"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "b71b79db-1fe4-4ef4-b34e-5c5cbd4f3b24.json",
+    "motivation": "commenting"
+}
