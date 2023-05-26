@@ -1,4 +1,10 @@
 images:
+- added: '2023-05-26 16:03:11.815612'
+  iiif: true
+  thumbnail: https://iiif-antenati.cultura.gov.it/iiif/2/5GZXDmx/full/120,/0/default.jpg
+  title: Archivio di Stato di Avellino > Stato civile della restaurazione > Lioni
+    > 1859
+  url: https://gist.githubusercontent.com/hopperrr/336c5d505ccae3baea05850db0fe59f9/raw/4df4cfe849b218d322766fd58c5cda7bf196c66b/gistfile1.txt
 - added: '2023-05-26 16:01:16.195343'
   iiif: true
   thumbnail: https://iiif-antenati.cultura.gov.it/iiif/2/0J8l2Jz/full/120,/0/default.jpg
