@@ -3,49 +3,69 @@ canvas: "https://iiif-antenati.cultura.gov.it/iiif/2/5GZXDOQ/info.json"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Giuseppe Soriano, 32",
-            "purpose": "commenting",
-            "creator": {
-                "id": "hopperrr",
-                "name": "Christopher Soriano"
-            },
             "created": "2023-05-26T16:08:34.733Z",
-            "modified": "2023-05-26T16:09:41.132Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "father",
             "creator": {
                 "id": "hopperrr",
                 "name": "Christopher Soriano"
             },
-            "created": "2023-05-26T16:08:43.355Z"
+            "modified": "2023-05-26T16:09:41.132Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Giuseppe Soriano, 32"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "calzolaio",
+            "created": "2023-05-26T16:08:43.355Z",
             "creator": {
                 "id": "hopperrr",
                 "name": "Christopher Soriano"
             },
-            "created": "2023-05-26T16:08:49.988Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "father"
+        },
+        {
+            "created": "2023-05-26T16:08:49.988Z",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "calzolaio"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Soriano",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-05-28T16:50:53.505Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Giuseppe",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-05-28T16:51:02.577Z"
         }
     ],
-    "target": {
-        "source": "https://iiif-antenati.cultura.gov.it/iiif/2/5GZXDOQ/info.json",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=366.2427978515625,387.4570617675781,589.4526977539062,76.09896850585938"
-        }
-    },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
     "id": "3b0a7886-daca-4bb8-b481-f4267058d1d6.json",
-    "motivation": "commenting"
+    "motivation": "commenting",
+    "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=366.2427978515625,387.4570617675781,589.4526977539062,76.09896850585938"
+        },
+        "source": "https://iiif-antenati.cultura.gov.it/iiif/2/5GZXDOQ/info.json"
+    },
+    "type": "Annotation"
 }
