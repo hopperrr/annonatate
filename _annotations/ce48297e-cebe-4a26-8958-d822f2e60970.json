@@ -3,39 +3,59 @@ canvas: "https://iiif-antenati.cultura.gov.it/iiif/2/5GZXDOQ/info.json"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Angiola Perna, 27",
-            "purpose": "commenting",
+            "created": "2023-05-26T16:10:16.529Z",
             "creator": {
                 "id": "hopperrr",
                 "name": "Christopher Soriano"
             },
-            "created": "2023-05-26T16:10:16.529Z",
-            "modified": "2023-05-26T16:10:24.549Z"
+            "modified": "2023-05-26T16:10:24.549Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Angiola Perna, 27"
+        },
+        {
+            "created": "2023-05-26T16:10:31.932Z",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "mother"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "mother",
+            "value": "Angiola",
             "creator": {
                 "id": "hopperrr",
                 "name": "Christopher Soriano"
             },
-            "created": "2023-05-26T16:10:31.932Z"
+            "created": "2023-05-28T16:51:17.704Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Perna",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-05-28T16:51:19.840Z"
         }
     ],
-    "target": {
-        "source": "https://iiif-antenati.cultura.gov.it/iiif/2/5GZXDOQ/info.json",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=395.6258544921875,564.2860717773438,254.39520263671875,51.4515380859375"
-        }
-    },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
     "id": "ce48297e-cebe-4a26-8958-d822f2e60970.json",
-    "motivation": "commenting"
+    "motivation": "commenting",
+    "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=395.6258544921875,564.2860717773438,254.39520263671875,51.4515380859375"
+        },
+        "source": "https://iiif-antenati.cultura.gov.it/iiif/2/5GZXDOQ/info.json"
+    },
+    "type": "Annotation"
 }
