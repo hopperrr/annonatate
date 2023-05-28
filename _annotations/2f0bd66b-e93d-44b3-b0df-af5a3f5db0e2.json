@@ -17,14 +17,34 @@ order: 1
             "value": "Filomena Perna"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "female",
+            "created": "2023-05-26T18:18:50.022Z",
             "creator": {
                 "id": "hopperrr",
                 "name": "Christopher Soriano"
             },
-            "created": "2023-05-26T18:18:50.022Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "female"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Perna",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-05-28T16:54:03.412Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Filomena",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-05-28T16:54:08.968Z"
         }
     ],
     "id": "2f0bd66b-e93d-44b3-b0df-af5a3f5db0e2.json",
