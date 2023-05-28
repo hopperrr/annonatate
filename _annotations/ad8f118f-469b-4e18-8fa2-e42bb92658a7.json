@@ -1,0 +1,40 @@
+---
+canvas: "https://iiif-antenati.cultura.gov.it/iiif/2/wlkyqJm/info.json"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Recce",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-05-28T17:07:18.795Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Angiola",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-05-28T17:07:24.963Z"
+        }
+    ],
+    "target": {
+        "source": "https://iiif-antenati.cultura.gov.it/iiif/2/wlkyqJm/info.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2738.045166015625,2315.787109375,780.1005859375,290.16650390625"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "ad8f118f-469b-4e18-8fa2-e42bb92658a7.json",
+    "motivation": "commenting"
+}
