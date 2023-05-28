@@ -1,0 +1,40 @@
+---
+canvas: "https://iiif-antenati.cultura.gov.it/iiif/2/58bnDWd/info.json"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Raffaela",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-05-28T17:10:16.093Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "D'Amelio",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-05-28T17:10:22.499Z"
+        }
+    ],
+    "target": {
+        "source": "https://iiif-antenati.cultura.gov.it/iiif/2/58bnDWd/info.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1799.2723388671875,2958.27587890625,884.3685302734375,208.110107421875"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "2325e7a6-e3f1-4d8c-8498-9f011a1c570e.json",
+    "motivation": "commenting"
+}
