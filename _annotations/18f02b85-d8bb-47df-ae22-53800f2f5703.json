@@ -1,0 +1,40 @@
+---
+canvas: "https://iiif-antenati.cultura.gov.it/iiif/2/w6N978b/info.json"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Perrone",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-05-28T17:11:49.800Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Gerardo",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-05-28T17:11:54.278Z"
+        }
+    ],
+    "target": {
+        "source": "https://iiif-antenati.cultura.gov.it/iiif/2/w6N978b/info.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2769.52685546875,2309.526123046875,978.345703125,296.116455078125"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "18f02b85-d8bb-47df-ae22-53800f2f5703.json",
+    "motivation": "commenting"
+}
