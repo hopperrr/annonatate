@@ -1,0 +1,44 @@
+---
+canvas: "https://iiif-antenati.cultura.gov.it/iiif/2/wj4nmGg/info.json"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Calvanese, Maria Concetta Immacolata",
+            "purpose": "supplementing",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-10-04T15:51:39.924Z",
+            "modified": "2023-10-04T15:52:31.621Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "child",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-10-04T15:52:50.861Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "id": "https://iiif-antenati.cultura.gov.it/iiif/2/wj4nmGg/info.json",
+            "type": "image"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1283.2816162109375,791.8504638671875,489.5958251953125,64.74041748046875"
+        }
+    },
+    "id": "b026c640-3d23-40e0-9349-65a86d313308.json",
+    "motivation": "commenting"
+}
