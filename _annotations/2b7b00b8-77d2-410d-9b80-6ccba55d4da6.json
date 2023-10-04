@@ -1,0 +1,64 @@
+---
+canvas: "https://iiif-antenati.cultura.gov.it/iiif/2/wj4nmGg/info.json"
+order: 3
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Calvanese, Don Vincenzo",
+            "purpose": "supplementing",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-10-04T15:53:17.495Z",
+            "modified": "2023-10-04T15:55:00.641Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "31",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-10-04T15:55:08.585Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "proprietario",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-10-04T15:55:34.209Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "father",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-10-04T15:55:41.957Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "id": "https://iiif-antenati.cultura.gov.it/iiif/2/wj4nmGg/info.json",
+            "type": "image"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1198.8408203125,409.1278991699219,566.542236328125,80.09857177734375"
+        }
+    },
+    "id": "2b7b00b8-77d2-410d-9b80-6ccba55d4da6.json",
+    "motivation": "commenting"
+}
