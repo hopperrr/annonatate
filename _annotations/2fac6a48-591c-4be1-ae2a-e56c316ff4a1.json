@@ -1,0 +1,34 @@
+---
+canvas: "https://iiif-antenati.cultura.gov.it/iiif/2/wj4nmGg/info.json"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Lioni, Nati, 1/1/1859",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-10-04T15:49:09.904Z",
+            "modified": "2023-10-04T15:49:38.583Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "id": "https://iiif-antenati.cultura.gov.it/iiif/2/wj4nmGg/info.json",
+            "type": "image"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1189.4615478515625,227.9967041015625,943.3026123046875,1240.1104736328125"
+        }
+    },
+    "id": "2fac6a48-591c-4be1-ae2a-e56c316ff4a1.json",
+    "motivation": "commenting"
+}
