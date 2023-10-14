@@ -8,14 +8,14 @@ order: 1
     "body": [
         {
             "type": "TextualBody",
-            "value": "D:1/1/1817, A:70, P:fatigatrice",
+            "value": "D:1/1/1817, A:60, P:fatigatrice",
             "purpose": "commenting",
             "creator": {
                 "id": "hopperrr",
                 "name": "Christopher Soriano"
             },
             "created": "2023-10-14T22:09:30.079Z",
-            "modified": "2023-10-14T22:12:33.362Z"
+            "modified": "2023-10-14T22:21:48.020Z"
         }
     ],
     "target": {
