@@ -1,0 +1,49 @@
+---
+canvas: "https://antenati.cultura.gov.it/ark:/12657/an_ua378249/Lpa429V"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "D:7/30/1817, A:1, P:ragazzo, FN:Amato, LN:Cavallo",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-10-18T22:06:30.905Z",
+            "modified": "2023-10-18T22:07:15.163Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "P:ragazzo",
+            "purpose": "tagging",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-10-18T22:07:35.285Z",
+            "modified": "2023-10-18T22:07:44.138Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://hopperrr.github.io/annonatate/manifests/main/Lioni_morti_1817.json/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://antenati.cultura.gov.it/ark:/12657/an_ua378249/Lpa429V",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=770.4012451171875,431.37042236328125,1257.8131103515625,2031.0607299804688"
+        }
+    },
+    "id": "a6c26a47-fc57-4a2e-a8e7-f34b3b373c02.json",
+    "motivation": "commenting"
+}
