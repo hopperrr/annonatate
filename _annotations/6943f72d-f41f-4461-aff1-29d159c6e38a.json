@@ -1,0 +1,58 @@
+---
+canvas: "https://antenati.cultura.gov.it/ark:/12657/an_ua378249/Lpa429V"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "D:7/30/1817, A:55, P:fatigatrice, FN:Angiola, LN:Mancuso",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-10-18T22:08:15.890Z",
+            "modified": "2023-10-18T22:09:28.088Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "P:fatigatrice",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-10-18T22:09:46.615Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "LN:Mancuso",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-10-18T22:09:56.671Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://hopperrr.github.io/annonatate/manifests/main/Lioni_morti_1817.json/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://antenati.cultura.gov.it/ark:/12657/an_ua378249/Lpa429V",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2040.6512451171875,422.20465087890625,1284.7615966796875,1964.0099487304688"
+        }
+    },
+    "id": "6943f72d-f41f-4461-aff1-29d159c6e38a.json",
+    "motivation": "commenting"
+}
