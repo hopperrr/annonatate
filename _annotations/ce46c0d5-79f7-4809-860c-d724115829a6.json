@@ -1,0 +1,38 @@
+---
+canvas: "https://antenati.cultura.gov.it/ark:/12657/an_ua378249/5xR1q6n"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "D:6/20/1817, A:60, P:fatigatrice, FN:Maria, LN:Albanese",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-10-18T02:28:29.588Z",
+            "modified": "2023-10-18T02:29:05.960Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://hopperrr.github.io/annonatate/manifests/main/Lioni_morti_1817.json/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://antenati.cultura.gov.it/ark:/12657/an_ua378249/5xR1q6n",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=918.0640869140625,483.9888916015625,1107.531005859375,1962.1395263671875"
+        }
+    },
+    "id": "ce46c0d5-79f7-4809-860c-d724115829a6.json",
+    "motivation": "commenting"
+}
