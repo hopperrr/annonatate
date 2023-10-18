@@ -4,21 +4,27 @@ order: 2
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "D:3/16/1817, A:65, P:bilfoca, FN:Matilda, LN:Nitri",
-            "purpose": "commenting",
+            "created": "2023-10-15T21:32:50.577Z",
             "creator": {
                 "id": "hopperrr",
                 "name": "Christopher Soriano"
             },
-            "created": "2023-10-15T21:32:50.577Z",
-            "modified": "2023-10-15T21:36:22.803Z"
+            "modified": "2023-10-18T21:50:04.642Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "D:3/16/1817, A:65, P:bifolca, FN:Matilda, LN:Nitri"
         }
     ],
+    "id": "e4e21323-a194-440a-94bd-275c0aa4b201.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2015.8212890625,596.573486328125,1248.796630859375,1813.98486328125"
+        },
         "source": {
             "partOf": {
                 "id": "https://hopperrr.github.io/annonatate/manifests/main/Lioni_morti_1817.json/manifest.json",
@@ -26,13 +32,7 @@ order: 2
             },
             "id": "https://antenati.cultura.gov.it/ark:/12657/an_ua378249/02aDxKQ",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2015.8212890625,596.573486328125,1248.796630859375,1813.98486328125"
         }
     },
-    "id": "e4e21323-a194-440a-94bd-275c0aa4b201.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
