@@ -1,0 +1,48 @@
+---
+canvas: "https://antenati.cultura.gov.it/ark:/12657/an_ua378249/wlYE2kD"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "D:7/31/1817, A:1, P:vinaio, FN:Giuseppe, LN:Angelone",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-10-18T22:10:26.791Z",
+            "modified": "2023-10-18T22:11:35.411Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "P:vinaio",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-10-18T22:12:06.477Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://hopperrr.github.io/annonatate/manifests/main/Lioni_morti_1817.json/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://antenati.cultura.gov.it/ark:/12657/an_ua378249/wlYE2kD",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=790.79541015625,389.51568603515625,1210.40087890625,1975.6847534179688"
+        }
+    },
+    "id": "98bedc88-4885-4c20-9bf0-6a209e6b60e3.json",
+    "motivation": "commenting"
+}
