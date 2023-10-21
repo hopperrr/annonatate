@@ -1,0 +1,38 @@
+---
+canvas: "https://antenati.cultura.gov.it/ark:/12657/an_ua378249/5xR1qjz"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "D:9/27/1817, A:15, P:fatigatrice, FN:Catarina, LN:Finella",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-10-21T00:20:39.934Z",
+            "modified": "2023-10-21T00:21:10.676Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://hopperrr.github.io/annonatate/manifests/main/Lioni_morti_1817.json/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://antenati.cultura.gov.it/ark:/12657/an_ua378249/5xR1qjz",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1840.8408203125,303.556884765625,1437.95703125,2035.2158203125"
+        }
+    },
+    "id": "7f8dfe3a-f19a-4536-b8ac-00735b8bc496.json",
+    "motivation": "commenting"
+}
