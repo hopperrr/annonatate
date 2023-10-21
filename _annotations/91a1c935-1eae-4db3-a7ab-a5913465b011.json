@@ -1,0 +1,38 @@
+---
+canvas: "https://antenati.cultura.gov.it/ark:/12657/an_ua378249/5d2QVgY"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "D:10/4/1817, A:28, P:bracciale, FN:Rocco, LN:Franicola",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-10-21T00:27:51.497Z",
+            "modified": "2023-10-21T00:30:36.609Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://hopperrr.github.io/annonatate/manifests/main/Lioni_morti_1817.json/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://antenati.cultura.gov.it/ark:/12657/an_ua378249/5d2QVgY",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=856.2218627929688,429.9325256347656,1088.9445190429688,1912.6192321777344"
+        }
+    },
+    "id": "91a1c935-1eae-4db3-a7ab-a5913465b011.json",
+    "motivation": "commenting"
+}
