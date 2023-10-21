@@ -1,0 +1,38 @@
+---
+canvas: "https://antenati.cultura.gov.it/ark:/12657/an_ua378249/LqPXM4G"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "D:9/29/1817, A:70, P:possidente, FN:Antonino, LN:Di Martino",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-10-21T00:22:29.440Z",
+            "modified": "2023-10-21T00:23:09.861Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://hopperrr.github.io/annonatate/manifests/main/Lioni_morti_1817.json/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://antenati.cultura.gov.it/ark:/12657/an_ua378249/LqPXM4G",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1919.4183349609375,388.4684143066406,1428.4437255859375,2023.0428161621094"
+        }
+    },
+    "id": "019d7df8-22c3-4242-9233-1ed02067d12f.json",
+    "motivation": "commenting"
+}
