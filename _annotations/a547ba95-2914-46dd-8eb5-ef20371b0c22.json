@@ -1,0 +1,38 @@
+---
+canvas: "https://antenati.cultura.gov.it/ark:/12657/an_ua378249/03YRWmR"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "D:10/8/1817, A:58, P:fatigatrice, FN:Rosa, LN:Lepore",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-10-21T16:20:54.738Z",
+            "modified": "2023-10-21T16:23:21.955Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://hopperrr.github.io/annonatate/manifests/main/Lioni_morti_1817.json/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://antenati.cultura.gov.it/ark:/12657/an_ua378249/03YRWmR",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1994.5548095703125,352.6814270019531,1387.2406005859375,2042.1882019042969"
+        }
+    },
+    "id": "a547ba95-2914-46dd-8eb5-ef20371b0c22.json",
+    "motivation": "commenting"
+}
