@@ -3,28 +3,20 @@ canvas: "https://iiif-antenati.cultura.gov.it/iiif/2/w6N978b/info.json"
 order: 2
 ---
 {
-    "type": "Annotation",
-    "body": [
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Giuseppe",
-            "creator": {
-                "id": "hopperrr",
-                "name": "Christopher Soriano"
-            },
-            "created": "2023-05-28T17:12:44.833Z"
-        }
-    ],
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "body": [],
+    "id": "5bb84cc5-1eb8-4c59-a924-32ab643fb257.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://iiif-antenati.cultura.gov.it/iiif/2/w6N978b/info.json",
         "selector": {
-            "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
             "value": "xywh=807.1370239257812,2679.6552734375,797.8535766601562,172.433349609375"
+        },
+        "source": {
+            "id": "https://iiif-antenati.cultura.gov.it/iiif/2/w6N978b/info.json",
+            "type": "image"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "5bb84cc5-1eb8-4c59-a924-32ab643fb257.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
