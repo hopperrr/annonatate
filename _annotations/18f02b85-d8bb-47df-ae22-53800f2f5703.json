@@ -4,18 +4,7 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "body": [
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "P:possidente",
-            "creator": {
-                "id": "hopperrr",
-                "name": "Christopher Soriano"
-            },
-            "created": "2023-10-18T23:18:11.042Z"
-        }
-    ],
+    "body": [],
     "id": "18f02b85-d8bb-47df-ae22-53800f2f5703.json",
     "motivation": "commenting",
     "target": {
