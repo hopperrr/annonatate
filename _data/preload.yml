@@ -1,4 +1,10 @@
 images:
+- added: '2023-10-27 19:53:51.267811'
+  iiif: true
+  thumbnail: ''
+  title: ''
+  url: https://github.com/hopperrr/iiif/blob/main/lioni_1816_morti.json
+  user: Christopher Soriano
 - added: '2023-05-26 16:03:11.815612'
   iiif: true
   thumbnail: https://iiif-antenati.cultura.gov.it/iiif/2/5GZXDmx/full/120,/0/default.jpg
