@@ -1,0 +1,38 @@
+---
+canvas: "https://antenati.cultura.gov.it/ark:/12657/an_ua378250/58oGxxd"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "D:2/26/1818, A:60, P:fatigatrice, FN:Beatrice, LN:Di Conza",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-10-28T15:36:56.865Z",
+            "modified": "2023-10-28T15:37:48.466Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://hopperrr.github.io/annonatate/manifests/main/lioni_1818_morti.json/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://antenati.cultura.gov.it/ark:/12657/an_ua378250/58oGxxd",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1992.792236328125,1314.4482421875,1185.6845703125,660.071533203125"
+        }
+    },
+    "id": "13f85a9e-6c62-4b98-94f5-efee190a8044.json",
+    "motivation": "commenting"
+}
