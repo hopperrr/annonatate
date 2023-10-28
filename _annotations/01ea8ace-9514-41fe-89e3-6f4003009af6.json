@@ -1,0 +1,38 @@
+---
+canvas: "https://antenati.cultura.gov.it/ark:/12657/an_ua378250/LDxYkkv"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "D:1/17/1818, A:8, P:ragazza, FN:Angiola, LN:Sena",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-10-28T15:07:42.913Z",
+            "modified": "2023-10-28T15:08:23.869Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://hopperrr.github.io/annonatate/manifests/main/lioni_1818_morti.json/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://antenati.cultura.gov.it/ark:/12657/an_ua378250/LDxYkkv",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=854.36181640625,1380.725341796875,1153.73046875,688.994140625"
+        }
+    },
+    "id": "01ea8ace-9514-41fe-89e3-6f4003009af6.json",
+    "motivation": "commenting"
+}
