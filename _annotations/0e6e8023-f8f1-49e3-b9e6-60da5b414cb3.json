@@ -1,0 +1,38 @@
+---
+canvas: "https://antenati.cultura.gov.it/ark:/12657/an_ua378250/02aDxxd"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "D:3/1/1818, A:60, P:fatigatrice, FN:Amata, LN:Poto",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-10-28T15:40:25.588Z",
+            "modified": "2023-10-28T15:41:00.382Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://hopperrr.github.io/annonatate/manifests/main/lioni_1818_morti.json/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://antenati.cultura.gov.it/ark:/12657/an_ua378250/02aDxxd",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2060.9462890625,1459.7357177734375,1194.542236328125,622.6278076171875"
+        }
+    },
+    "id": "0e6e8023-f8f1-49e3-b9e6-60da5b414cb3.json",
+    "motivation": "commenting"
+}
