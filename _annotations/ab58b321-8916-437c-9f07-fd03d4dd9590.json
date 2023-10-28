@@ -1,0 +1,38 @@
+---
+canvas: "https://antenati.cultura.gov.it/ark:/12657/an_ua378250/wEn8ooV"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "D:2/22/1818, A:56, P:gentil donna, FN:Maria, LN:Piombino",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-10-28T15:26:58.420Z",
+            "modified": "2023-10-28T15:32:53.465Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://hopperrr.github.io/annonatate/manifests/main/lioni_1818_morti.json/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://antenati.cultura.gov.it/ark:/12657/an_ua378250/wEn8ooV",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=781.2467651367188,1318.3184814453125,1262.2323608398438,604.2816162109375"
+        }
+    },
+    "id": "ab58b321-8916-437c-9f07-fd03d4dd9590.json",
+    "motivation": "commenting"
+}
