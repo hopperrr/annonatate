@@ -1,0 +1,38 @@
+---
+canvas: "https://antenati.cultura.gov.it/ark:/12657/an_ua378250/5d2QV7K"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "D:5/10/1818, A:0.1, P:ragazzo, FN:Gaetano, LN:Carcaguo",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
+            "created": "2023-10-30T05:57:54.918Z",
+            "modified": "2023-10-30T06:00:00.557Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://hopperrr.github.io/annonatate/manifests/main/lioni_1818_morti.json/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://antenati.cultura.gov.it/ark:/12657/an_ua378250/5d2QV7K",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=875.2500610351562,1507.8228759765625,1222.1395874023438,532.9503173828125"
+        }
+    },
+    "id": "c19aeff2-cee5-4ab9-8875-a750ecaf6ecf.json",
+    "motivation": "commenting"
+}
