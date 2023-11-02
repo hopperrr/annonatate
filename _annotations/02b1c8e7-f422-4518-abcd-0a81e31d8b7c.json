@@ -4,20 +4,21 @@ order: 2
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "D:1/14/1817, A:19, P:fatigatrice, FN:Maria, LN:Masseo",
-            "purpose": "commenting",
+            "created": "2023-10-15T18:24:31.376Z",
             "creator": {
                 "id": "hopperrr",
                 "name": "Christopher Soriano"
             },
-            "created": "2023-10-15T18:24:31.376Z",
-            "modified": "2023-10-15T18:26:58.467Z"
+            "modified": "2023-10-15T18:26:58.467Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "D:1/14/1817, A:19, P:fatigatrice, FN:Maria, LN:Masseo"
         }
     ],
+    "id": "02b1c8e7-f422-4518-abcd-0a81e31d8b7c.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -30,9 +31,8 @@ order: 2
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2077.621337890625,506.2041320800781,1243.924560546875,1799.2472839355469"
+            "value": "xywh=2077.621337890625,1124.065185546875,1227.8701171875,635.5826416015625"
         }
     },
-    "id": "02b1c8e7-f422-4518-abcd-0a81e31d8b7c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
