@@ -4,20 +4,21 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "D:1/14/1817, A:65, P:bracciale, FN:Guglielmo, LN: Nittoli",
-            "purpose": "commenting",
+            "created": "2023-10-15T18:20:38.771Z",
             "creator": {
                 "id": "hopperrr",
                 "name": "Christopher Soriano"
             },
-            "created": "2023-10-15T18:20:38.771Z",
-            "modified": "2023-10-15T18:24:01.303Z"
+            "modified": "2023-10-15T18:24:01.303Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "D:1/14/1817, A:65, P:bracciale, FN:Guglielmo, LN: Nittoli"
         }
     ],
+    "id": "6d13a959-51e7-497c-9693-2feb27d26131.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -30,9 +31,8 @@ order: 1
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=717.251220703125,540.1619873046875,1291.485107421875,1830.2652587890625"
+            "value": "xywh=717.251220703125,1068.5557861328125,1303.19775390625,602.2769775390625"
         }
     },
-    "id": "6d13a959-51e7-497c-9693-2feb27d26131.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
