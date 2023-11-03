@@ -3,54 +3,41 @@ canvas: "https://iiif-antenati.cultura.gov.it/iiif/2/5Vgz9Nv/info.json"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Serafina",
+            "created": "2023-05-28T17:01:38.685Z",
             "creator": {
                 "id": "hopperrr",
                 "name": "Christopher Soriano"
             },
-            "created": "2023-05-28T17:01:38.685Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Serafina"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-05-28T17:01:45.927Z",
+            "creator": {
+                "id": "hopperrr",
+                "name": "Christopher Soriano"
+            },
             "purpose": "tagging",
-            "value": "Sagliocca",
-            "creator": {
-                "id": "hopperrr",
-                "name": "Christopher Soriano"
-            },
-            "created": "2023-05-28T17:01:45.927Z"
-        },
-        {
-            "purpose": "geotagging",
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    16,
-                    48
-                ]
-            },
-            "creator": {
-                "id": "hopperrr",
-                "name": "Christopher Soriano"
-            },
-            "created": "2023-05-28T17:01:49.103Z"
+            "type": "TextualBody",
+            "value": "Sagliocca"
         }
     ],
+    "id": "01fb12eb-096d-43ff-a95e-14315c67d346.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://iiif-antenati.cultura.gov.it/iiif/2/5Vgz9Nv/info.json",
         "selector": {
-            "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
             "value": "xywh=1169.455322265625,550.2888793945312,308.37548828125,69.55291748046875"
+        },
+        "source": {
+            "id": "https://iiif-antenati.cultura.gov.it/iiif/2/5Vgz9Nv/info.json",
+            "type": "image"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "01fb12eb-096d-43ff-a95e-14315c67d346.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
