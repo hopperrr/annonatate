@@ -47,40 +47,24 @@ order: 2
             "value": "father"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Perna",
+            "created": "2023-05-28T16:54:27.052Z",
             "creator": {
                 "id": "hopperrr",
                 "name": "Christopher Soriano"
             },
-            "created": "2023-05-28T16:54:27.052Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Perna"
         },
         {
-            "purpose": "geotagging",
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    16,
-                    48
-                ]
-            },
+            "created": "2023-05-28T16:54:46.181Z",
             "creator": {
                 "id": "hopperrr",
                 "name": "Christopher Soriano"
             },
-            "created": "2023-05-28T16:54:24.437Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Rocco",
-            "creator": {
-                "id": "hopperrr",
-                "name": "Christopher Soriano"
-            },
-            "created": "2023-05-28T16:54:46.181Z"
+            "type": "TextualBody",
+            "value": "Rocco"
         }
     ],
     "id": "34f90136-52c5-4cdb-be72-5ed56106d00d.json",
@@ -91,7 +75,10 @@ order: 2
             "type": "FragmentSelector",
             "value": "xywh=772.6168212890625,2566.00634765625,849.5040283203125,182.53857421875"
         },
-        "source": "https://iiif-antenati.cultura.gov.it/iiif/2/wQG4xz8/info.json"
+        "source": {
+            "id": "https://iiif-antenati.cultura.gov.it/iiif/2/wQG4xz8/info.json",
+            "type": "image"
+        }
     },
     "type": "Annotation"
 }
